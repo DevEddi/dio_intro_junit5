@@ -1,6 +1,9 @@
 package rascunho;
 
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
@@ -20,6 +23,21 @@ class RascunhoTest {
             }
 
             assertEquals() /*RECEBE COMO PARAMETRO O VALOR ESPERADO E VALOR OBTIDO E VERIFICA SE SAO IGUAIS*/
+
+            /*Exemplos:*/
+            /*
+            * assertAll --->>> Recebe uma coleção de executaveis
+            * assertArray --->>> Verifica duas arrays se sao iguais
+            * Mais verifica no doc do JUnit 5
+            *
+            *
+            * */
+            @BeforeEach /* Roda antes de cada teste, separado*/
+
+            @AfterEach /* Depois de cada teste*/
+
+            @AfterAll /* Executa uma vez*/
+
 
 
 
